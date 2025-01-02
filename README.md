@@ -4,11 +4,11 @@ The goal of this project is to create a Deep Learning Convolutional Neural Netwo
 
 ## Content of the submission
 
-<ins>src/data_cleaning.py</ins> : Python script for data cleaning of our dataset
+<ins>src/data_cleaning.py</ins> : Python script for data cleaning of  dataset
 
 <ins>src/visualization.py</ins>: Python script to create the data visualization
 
-<ins>dataset_info.md</ins>: Document detailing the sources and licensing of our dataset (https://www.kaggle.com/datasets/msambare/fer2013)
+<ins>dataset_info.md</ins>: Document detailing the sources and licensing of  dataset (https://www.kaggle.com/datasets/msambare/fer2013)
 
 <ins>dataset folder</ins>: Folder containing the dataset images
 
