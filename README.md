@@ -66,17 +66,17 @@ Setting Up the Virtual Environment
 ### Evaluating Model Bias (Age and Gender)
 
 1. From the root folder, go to src `cd src`.
-2. You first need to split the training data.
-   - a. Enter `python split_dataset.py` to split dataset.
+2. Split the training data.
+   - a. Run `python split_dataset.py` to split dataset.
    - b. Then you need to enter the relative path of the dataset (either one of the following):
-     - Level 1: enter `../dataset-bias_level1/`
-     - Level 2: enter `../dataset-bias_level2/`
-     - Level 3: enter `../dataset-bias_level3/`
-3. Create and train the bias models (either one of the following):
+     • For Level 1: enter `../dataset-bias_level1/`
+     • For Level 2: enter `../dataset-bias_level2/`
+     • For Level 3: enter `../dataset-bias_level3/`
+3. Train the bias models :
    - a. Level 1: enter `python trainAI_bias1.py`
    - b. Level 2: enter `python trainAI_bias2.py`
    - c. Level 3: enter `python trainAI_bias3.py`
-4. Now, enter `python evaluation_bias.py` to evaluate the model based on the biases.
+4. Run `python evaluation_bias.py` to evaluate the model based on the biases.
    - a. Enter the model name you would like to evaluate
      - Level 1: enter `model_bias1.pth`
      - Level 2: enter `model_bias2.pth`
